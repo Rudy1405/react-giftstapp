@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import PropTypes from 'prop-types';
 //import { getGifs } from '../helpers/getGifs';
 import { useFetchGif } from '../hooks/useFetchGif';
 import { GifGridItem } from './GifGridItem';
@@ -63,4 +64,9 @@ export const GifGrid = ({category}) => {
             
         </>
     )
+}
+
+
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired
 }

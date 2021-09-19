@@ -9,7 +9,7 @@ describe('Tests in fetch getGifs', () => {
     
     test('should have no elements if there is NO prop in getGIFs', async () => {
         const gifs = await getGifs();
-        expect(gifs.length).toBe(0); //usamos 0 y 10 porque al final ese promise lo que regresa es un array
+        expect(gifs.length).toBe(10); //usamos 0 y 10 porque al final ese promise lo que regresa es un array
       })
 
 })

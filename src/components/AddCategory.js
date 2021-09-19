@@ -20,6 +20,7 @@ export const AddCategory = ( {setCategories} ) => { // aqui como se hizo q en el
     /// en este caso no usamos el <></> para indicar que hay un elemento agrupador del componente porque el FORM ya lo es
     return (
           <form className="animate__animated animate__zoomIn animate__delay-0.5s" onSubmit={handleSubmit}>
+              <p> {inputValue} </p>
             <input 
                     type="text"
                     value= {inputValue}

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <GifExpertApp/> Should show a list of categories 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__jackInTheBox animate__delay-1s"
+  >
+     Gif Detective App
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr
+    className="animate__animated animate__zoomIn animate__delay-0.5s"
+  />
+  <ol>
+    <GifGrid
+      category="patas"
+      key="patas"
+    />
+    <GifGrid
+      category="snk"
+      key="snk"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Testing in <GifExpertApp/> should render correctly 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__jackInTheBox animate__delay-1s"
+  >
+     Gif Detective App
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr
+    className="animate__animated animate__zoomIn animate__delay-0.5s"
+  />
+  <ol />
+</Fragment>
+`;

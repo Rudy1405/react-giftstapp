@@ -2,10 +2,10 @@ import React, {useState} from 'react'
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategories=[]}) => { // se agrega el defaultCategories para dejar que se pueda enviar data con la cual renderear el componente, se uso para TESTING sino, solo quitalo y en use State un []
 
     //const categories = ["One Punch","SNK","cool cats"]
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState(defaultCategories);
    
     return (
         <>

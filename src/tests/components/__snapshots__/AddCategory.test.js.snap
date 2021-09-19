@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> should show correctly 1`] = `
+<form
+  className="animate__animated animate__zoomIn animate__delay-0.5s"
+  onSubmit={[Function]}
+>
+  <p>
+     
+    Add a category
+     
+  </p>
+  <input
+    onChange={[Function]}
+    onClick={[Function]}
+    type="text"
+    value="Add a category"
+  />
+</form>
+`;
